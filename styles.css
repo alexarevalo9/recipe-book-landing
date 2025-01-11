@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+  max-width: 36rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #343a40;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #007bff;
+}
+
+button#download-now {
+  background-color: #0f172a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  width: 190px;
+}
+
+button#download-now svg {
+  margin-right: 10px;
+}
+
+button#download-now:hover {
+  background-color: #007bff;
+}
